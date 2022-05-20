@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.columns {
+    display: flex;
+    border: 3px solid rgb(9, 65, 101);
+    background-color: rgb(78, 149, 194);
+    img{
+        padding: 10px;
+        width: 350px ;
+        }
+    h2{
+        padding: 15px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(64, 123, 170);
+    }
+   p{
+       font-size: 20px;
+   }
+    .column {
+        background-color: rgb(151, 112, 136);
+        margin: 10px 10px;
+        width: 25%;
+        height: 600px;
+        border: 3px solid rgb(168, 128, 159);
+    }
+   
+
+}
+
